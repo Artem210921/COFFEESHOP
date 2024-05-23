@@ -1,0 +1,203 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul,li {
+    list-style: none;
+}
+
+button {
+    font-family: 'Inter',sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+    background-color: #C99E71;
+    color: #fff;
+}
+
+button:hover {
+    transition: .4s all ease;
+    background-color: #c5af98;
+}
+
+body {
+    background-color: #14110E;
+    color: #fff
+}
+
+span {
+    color: #C99E71;
+}
+
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.header {
+    font-family: 'Inter',sans-serif;
+    background-color:#1C1814;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0 33px;
+}
+
+.header-logo { 
+    padding: 32px 0 0 0;
+}
+
+.nav-list {
+    position: relative;
+    display: flex;
+    gap: 48px;
+    padding: 32px 0 0 0;
+}
+
+.search-logo,.cart-logo {
+    position: relative;
+    top: -5px;
+    right: 0;
+}
+
+.introduction {
+    background: url(Rectangle\ 12.png) 50%/cover no-repeat ;
+}
+
+.introduction-container {
+    display: flex;
+    gap: 548px;
+    padding: 0 0 0 74px;
+    align-items: end;
+}
+
+.introduction__feauture {
+    max-width: 529px;
+}
+
+.introduction-title {
+    font-family: 'Righteous',sans-serif;
+    font-size: 72px;
+    padding: 0 0 32px 0;
+    font-weight: 400;
+    margin: 147px 0 0 0;
+}
+
+.introduction-text {
+    font-family: 'Urbanist',sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 36px;
+    padding: 0 0 64px 0;
+}
+
+.introduction-button {
+    padding: 24px 40px;
+    margin: 0 0 166px 0;
+}
+
+.introduction-image {
+    padding: 0 0 158px 0;
+}
+
+.about-coffee-container {
+    padding: 140px 0 0 74px;
+    display: flex;
+    gap: 36px;
+}
+
+.about-coffee-title {
+    font-family: 'Righteous',sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    padding: 0 0 24px 0;
+}
+
+.our-history-subtitle {
+    font-family: Urbanist;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.our-history-title {
+    font-family: Righteous;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 62.4px;
+    text-align: left;
+    margin-bottom: 38px;
+}
+
+.our-history-container {
+    display: flex;
+    padding: 140px 0 0 74px;
+    gap: 32px;
+}
+
+.our-history-images {
+    display: flex;
+    gap: 32px;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.our-history-text-block {
+    background-color: #1C1814;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 510px;
+    width: 100%;
+}
+
+.our-history-text {
+    font-family: Urbanist;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28.8px;
+    align-items: start;
+    text-transform: capitalize;
+    opacity: 0.8;
+}
+
+.text-block {
+    max-width: 398px;
+    width: 100%;
+}
+
+/* MEDIA */
+
+@media only screen and (max-width: 1200px) {
+
+}
+
+
+@media only screen and (max-width: 992px) {
+
+}
+
+
+@media only screen and (max-width: 768px) {
+
+}
+
+
+@media only screen and (max-width: 552px) {
+
+}
