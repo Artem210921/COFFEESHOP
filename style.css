@@ -239,6 +239,15 @@ span {
     padding: 36px 0 20px;
 }
 
+.coffee-cost {
+    position: relative;
+    top: 0;
+    left: -30px;
+    display: flex;
+    gap: 36px;
+    align-items: center;
+}
+
 .cost {
     position: relative;
     font-family: 'Urbanist',sans-serif;
@@ -293,9 +302,12 @@ span {
 
 .adv-container {
     background-color: #1C1814;
-    padding: 85px 0 84px 75px;
+    padding: 85px 169px 75px 84px;
     display: flex;
+    max-width: 1170px;
     justify-content: center;
+    align-items: center;
+    margin-bottom: 140px;
     gap: 160px;
 }
 
@@ -304,7 +316,6 @@ span {
     gap: 36px;
     flex-direction: column;
     align-items: start;
-    max-width: 535px;
 }
 
 .adv-title {
@@ -329,6 +340,143 @@ span {
     font-weight: 700;
 }
 
+.coffee-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.menu-list-coffee {
+    display: flex;
+    flex-direction: row;
+    max-width: 565px;
+    gap: 20px;
+    border: 1px solid #32323D ;
+    align-items: center;
+    padding: 20px;
+}
+
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 140px;
+}
+
+.menu-subtitle {
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'Urbanist',sans-serif;
+    margin-bottom: 12px;
+}
+
+.menu-title {
+    font-weight: 400;
+    font-size: 48px;
+    font-family: 'Righteous',sans-serif;
+    margin-bottom: 56px;
+}
+
+.menu-text {
+    margin-right: 97px;
+    font-family: 'Righteous',sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+.menu-price {
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'Urbanist',sans-serif;
+}
+
+.reviews {
+    display: flex;
+    gap: 40px;
+    font-family: 'Urbanist',sans-serif;
+}
+
+.review-rate {
+    display: flex;
+}
+
+.product-designer-review {
+    background-color: #1C1814;
+}
+
+.customers-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.customers-text-block {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    max-width: 565px;
+}
+
+.exp-designer-review {
+    background-color: #1C1814;
+}
+
+.person-boy {
+    display: flex;
+    gap: 261px;
+}
+
+.person-text {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.customers-text {
+    max-width: 332px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 180%;
+    text-transform: capitalize;
+    opacity: 0.8;
+}
+
+.author-job {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 180%;
+    text-transform: capitalize;
+    opacity: .8;
+}
+
+.author-review {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.person-girl {
+    display: flex;
+    gap: 208px;
+}
+
+.customers-subtitle {
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'Urbanist',sans-serif;
+    margin-bottom: 12px;
+}
+
+.customers-title {
+    font-family: 'Righteous',sans-serif;
+    font-size: 48px;
+    line-height: 62.4px;
+    font-weight: 400;
+    margin-bottom: 56px;
+}
 
 /* MEDIA */
 
