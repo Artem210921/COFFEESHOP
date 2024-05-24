@@ -181,6 +181,303 @@ span {
     width: 100%;
 }
 
+.product-container {
+    padding: 140px 0 0 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 140px;
+}
+
+.coffee-cost {
+    display: flex;
+    gap: 36px;
+}
+
+.brazil-coffee-rate {
+    padding: 48px 48px 36px;
+    background-color: #121315;
+}
+
+.brazil-coffee {
+    padding: 48px 48px 36px;
+    background-color: #121315;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 37px;
+}
+
+.rate {
+    display: flex ;
+    align-items: center;
+    text-align: center;
+    gap: 4px;
+}
+
+.description {
+    margin-right: 9px;
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-text{
+    font-family: 'Righteous',sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-family: 'Urbanist',sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 36px 0 20px;
+}
+
+.coffee-cost {
+    position: relative;
+    top: 0;
+    left: -30px;
+    display: flex;
+    gap: 36px;
+    align-items: center;
+}
+
+.cost {
+    position: relative;
+    font-family: 'Urbanist',sans-serif;
+    font-weight: 600;
+}
+
+.cost::after {
+    content: '';
+    position: absolute;
+    background-color: white;
+    width: 35px;
+    height: 1px;
+    opacity: 0,2;
+    top: 50%;
+    right: 0px;
+}
+
+.stars {
+    padding: 16px 0 0 0;
+}
+
+.product-subtitle {
+    font-family: 'Urbanist',sans-serif;
+    font-family: '600',sans-serif;
+    font-size: 18px;
+}
+
+.product-title {
+    font-family: 'Righteous',sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: 56px;
+}
+
+.product-button {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 13px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Urbanist',sans-serif;
+}
+
+.product-button2 {
+    padding: 20px 36px;
+    margin-top: 56px;
+    font-weight: 700;
+    font-family: 'Inter',sans-serif;
+    font-size: 18px;
+}
+
+.adv-container {
+    background-color: #1C1814;
+    padding: 85px 169px 75px 84px;
+    display: flex;
+    max-width: 1170px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 140px;
+    gap: 160px;
+}
+
+.adv-text-block {
+    display: flex;
+    gap: 36px;
+    flex-direction: column;
+    align-items: start;
+}
+
+.adv-title {
+    font-family: 'Righteous',sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 62.4px;
+}
+
+.adv-text {
+    font-size: 16px;
+    line-height: 28.8px;
+    font-family: 'Urbanist',sans-serif;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.adv-button {
+    padding: 20px 36px;
+    font-size: 18px;
+    font-family: 'Inter',sans-serif;
+    font-weight: 700;
+}
+
+.coffee-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.menu-list-coffee {
+    display: flex;
+    flex-direction: row;
+    max-width: 565px;
+    gap: 20px;
+    border: 1px solid #32323D ;
+    align-items: center;
+    padding: 20px;
+}
+
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 140px;
+}
+
+.menu-subtitle {
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'Urbanist',sans-serif;
+    margin-bottom: 12px;
+}
+
+.menu-title {
+    font-weight: 400;
+    font-size: 48px;
+    font-family: 'Righteous',sans-serif;
+    margin-bottom: 56px;
+}
+
+.menu-text {
+    margin-right: 97px;
+    font-family: 'Righteous',sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+.menu-price {
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'Urbanist',sans-serif;
+}
+
+.reviews {
+    display: flex;
+    gap: 40px;
+    font-family: 'Urbanist',sans-serif;
+}
+
+.review-rate {
+    display: flex;
+}
+
+.product-designer-review {
+    background-color: #1C1814;
+}
+
+.customers-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.customers-text-block {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    max-width: 565px;
+}
+
+.exp-designer-review {
+    background-color: #1C1814;
+}
+
+.person-boy {
+    display: flex;
+    gap: 261px;
+}
+
+.person-text {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.customers-text {
+    max-width: 332px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 180%;
+    text-transform: capitalize;
+    opacity: 0.8;
+}
+
+.author-job {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 180%;
+    text-transform: capitalize;
+    opacity: .8;
+}
+
+.author-review {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.person-girl {
+    display: flex;
+    gap: 208px;
+}
+
+.customers-subtitle {
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'Urbanist',sans-serif;
+    margin-bottom: 12px;
+}
+
+.customers-title {
+    font-family: 'Righteous',sans-serif;
+    font-size: 48px;
+    line-height: 62.4px;
+    font-weight: 400;
+    margin-bottom: 56px;
+}
+
 /* MEDIA */
 
 @media only screen and (max-width: 1200px) {
